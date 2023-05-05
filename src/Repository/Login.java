@@ -8,6 +8,7 @@ public class Login {
 
     WebDriver driver;
 
+    //init
     By LinkBtn=By.xpath("/html/body/div[1]/header/div[3]/div/div[1]/div[3]/ul/li[2]/div/a");
     By txtMobNo= By.xpath("//input[contains(@id,'user_mobile')]");
     By btnOtp=By.xpath("//button[contains(@id,'sendotp')]");
